@@ -19,6 +19,7 @@ public:
 		id.setText("ID", dontSendNotification);
 		id.setColour(Label::textColourId, Colours::black);
 		id.setColour(Label::backgroundColourId, Colours::white);
+		id.setColour(Label::textWhenEditingColourId, Colours::black);
 		id.setJustificationType(Justification::centredLeft);
 		id.setEditable(true);
 
@@ -27,6 +28,7 @@ public:
 		pw.setText("PW", dontSendNotification);
 		pw.setColour(Label::textColourId, Colours::black);
 		pw.setColour(Label::backgroundColourId, Colours::white);
+		pw.setColour(Label::textWhenEditingColourId, Colours::black);
 		pw.setJustificationType(Justification::centredLeft);
 		pw.setEditable(true);
 	}
